@@ -28,7 +28,7 @@ facet = { version = "{{ data.versions.facet }}", features = ["uuid", "chrono"] }
 | `url` | [url](https://docs.rs/url) | `Url` |
 | `chrono` | [chrono](https://docs.rs/chrono) | `DateTime<Tz>`, `NaiveDate`, `NaiveTime`, `NaiveDateTime` |
 | `time` | [time](https://docs.rs/time) | `Date`, `Time`, `PrimitiveDateTime`, `OffsetDateTime`, `Duration` |
-| `jiff02` | [jiff](https://docs.rs/jiff) | `Timestamp`, `Zoned`, `DateTime`, `Date`, `Time`, `Span`, `SignedDuration` |
+| `jiff02` | [jiff](https://docs.rs/jiff) | `Timestamp`, `Zoned`, `DateTime`, `Date`, `Time` |
 | `camino` | [camino](https://docs.rs/camino) | `Utf8Path`, `Utf8PathBuf` |
 | `bytes` | [bytes](https://docs.rs/bytes) | `Bytes`, `BytesMut` |
 | `iddqd` | [iddqd](https://docs.rs/iddqd) | `IdHashMap<T>`, `IdOrdMap<T>`[^1], `BiHashMap<T>`, `TriHashMap<T>` |
